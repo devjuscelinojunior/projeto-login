@@ -5,3 +5,47 @@
 -  rgb(212, 238, 147) amarelo claro
 -  rgb(125, 65, 73) vinho claro
 */
+* {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body, html {
+    background-color: rgb(125, 65, 73);
+    height: 100vh;
+    width: 100vw;
+}
+main {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+
+section#login {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    width: 250px;
+    height: 500px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.584);
+}
+
+section#login > div#imagem {
+    background: rgb(125, 65, 73) url(../imagens/pexels-allan-carvalho-264847051-18072475.jpg) no-repeat;
+    height: 200px;
+    background-size: cover;
+    display: block;
+    
+    
+}
+
+section#login > div#formulário {
+    padding: 10px;
+    display: block;
+}
